@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+.mainheader {
+  background-color: #f2f2f2;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 0;
+}
+
+.mainheader-logo {
+  width: 200px;
+}
+
+.mainheader-container {
+  display: flex;
+  /* чтобы выстроить блоки-потомки по горизонтали */
+  justify-content: space-between;
+  /* чтобы прижать к противоположным краям сами блоки */
+  align-items: center;
+  /* вертикальное центрирование */
+}
+
+.mainheader-content-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mainheader-content-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.mainheader-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  font-size: 26px;
+}
+
+.mainheader-nav-item {
+  margin-left: 40px;
+  color: #555;
+  text-decoration: none;
+}
