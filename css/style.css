@@ -95,3 +95,11 @@ hr {
 p {
   font-size: 20px;
 }
+
+
+
+.mainfooter {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px 0;
+}
